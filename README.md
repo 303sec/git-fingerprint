@@ -1,6 +1,13 @@
 # git-fingerprint
 
-Enumerate version information from a target using Git.
+Enumerate version information from a target using Git. Forked from https://github.com/SecarmaLabs/git-fingerprint/, tool by cornerpirate.
+
+### Fork Improvements
+
+This is a work in progress, but this fork is designed to essentially completely rework of git-fingerprint in the following ways:
+* Rewrite in Golang for speed
+* Generating hashes for files is stored in a SQLite database, which maintains permanance for different repos
+* Reducing network requests by only requesting resources that have changed
 
 # What is this?
 
